@@ -25,8 +25,8 @@ load_dotenv()
 
 class Config:
     def __init__(self) -> None:
-        self.API_ID: str = os.environ.get("API_ID", None)
-        self.API_HASH: str = os.environ.get("API_HASH", None)
+        self.API_ID: str = os.environ.get("API_ID", 20562331)
+        self.API_HASH: str = os.environ.get("API_HASH", 9e3e4148e73756a85b95fc69980b678d)
         self.SESSION: str = os.environ.get("SESSION", None)
         self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", None)
         self.SUDOERS: list = [
